@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Seminar Schedule with Image</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            max-width: 100px; /* Adjust based on your image size */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Day Seminar Schedule</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Topic</th>
+                <th>Begin</th>
+                <th>End</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td>Introduction to XML</td>
+                <td>8.00AM</td>
+                <td>5.00PM</td>
+                <td rowspan="2"><img src="path_to_your_image.jpg" alt="Image Description"></td>
+            </tr>
+            <tr>
+                <td>Validity DID and Relax NG</td>
+                <td>8.00AM</td>
+                <td>11.00PM</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Tuesday</td>
+                <td>Xpath</td>
+                <td>11.00AM</td>
+                <td>2.00PM</td>
+            </tr>
+            <tr>
+                <td>XSL Transformation</td>
+                <td>2.00PM</td>
+                <td>8.00PM</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>XSL Formatting Objects</td>
+                <td>&lt; 8.00AM</td>
+                <td>12.00PM</td>
+                <td><img src="path_to_your_image.jpg" alt="Image Description"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
